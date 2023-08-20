@@ -1,0 +1,276 @@
+.play_box{
+    height: calc(100vh - 70px);
+    width: 100%;
+    margin: 20px 20px 0px 20px ;
+    display: flex;
+    flex-direction: row;
+    overflow-y: scroll;
+}
+.left_box{
+    flex-basis: 65%;
+    display: flex;
+    flex-direction:column;
+}
+.left_box .video_box{
+    margin: 0;
+    width: 100%;
+    height: auto;
+    /* height: 500px; */
+    background-color: rgb(88, 207, 164);    
+}
+.play_box .video_box video{
+    height: 100%;
+    width: 100%;
+}
+.play_box .video_title{
+    width: auto;
+    font-weight: 600;
+    font-size: large;
+}
+.play_box .sub_details{
+    display: inline-flex;
+    height: 40px;
+    margin: 0;
+    width: 100%;
+}
+.play_box .channels_logo{
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    border-radius: 20px;
+    align-items: center;
+}
+.play_box .channel_name{
+    font-size: medium;
+    font-weight: 500;
+    margin: 0;
+    margin-left: 10px;
+    margin-right: auto;
+}
+.play_box .channel_name div {
+    display: inline-flex;
+    align-items: center;
+}
+.play_box .channel_name div p{
+    font-size: medium;
+    font-weight: 500;
+    margin: 0;
+}
+.play_box .channel_name div img{
+    height: 15px;
+    margin-left: auto;
+}
+.play_box .channel_name p{
+    margin: 0;
+    font-size: small;
+}
+.play_box .like,
+.play_box .share,
+.play_box .download,
+.play_box .like{
+    display: inline-flex;
+    align-items: center;
+    background-color: rgb(228, 228, 228);
+    border-radius: 20px;
+    margin: 0 6px;
+
+}
+
+.play_box .subscribed{
+    display: inline-flex;
+    align-items: center;
+    background-color: rgb(228, 228, 228);
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: 6px;
+}
+.play_box .like p{
+    border-right: 1px solid rgb(179, 179, 179);
+    padding-right: 15px;
+}
+.play_box .subscribed img,
+.play_box .like img,
+.play_box .share img,
+.play_box .download img{
+    height: 25px;
+    margin: 0 5px;
+}
+.play_box .sub_details .download p,
+.play_box .sub_details .share p{
+    margin-right: 10px;
+} 
+.play_box .sub_details .download:last-child{
+    margin-right: 0;
+} 
+.play_box .video_desc{
+    margin-top: 20px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 10px;
+    padding: 10px;
+}
+.play_box .video_comment_box{
+    margin: 0;
+    padding: 0;
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+}
+.play_box .video_comment_num{
+    display: inline-flex;
+    /* flex-direction: column; */
+    align-items: center;
+    width: 100%;
+}
+.play_box .video_comment_num div{
+    display: inline-flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.play_box .video_comment_num div p{
+    font-weight: 500;
+    margin-right: auto;
+}
+.play_box .video_comment_box .profile_icon{
+    display: inline-flex;
+    width: 100%;
+    margin: 0;
+    align-items: flex-start;
+}
+.play_box .video_comment_box .profile_icon img{
+    margin: 0;
+    background-color: black;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+.play_box .video_comment_box .profile_icon input{
+    width: 100%;
+    background:none;
+    border: none;
+    border-bottom: 1px solid gray;
+    margin-left: 20px;
+    font-size: medium;
+}
+
+.play_box .video_comment_box .profile_icon input[type=text]:focus{
+    background:none;
+    /* border: none; */
+}
+.play_box .video_comments{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    margin-top: 20px;
+}
+.play_box .video_comments .video_comment_item{
+    display: inline-flex;
+    margin: 5px 0;
+}
+.play_box .video_comments .video_comment_item .profile img{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 20px;
+}
+.play_box .video_comments .video_comment_item .text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.play_box .video_comment_item .text h5{
+    margin: 0;
+    font-size: 13px;
+    font-weight: 600;
+}
+.play_box .video_comment_item .text h5 span{
+    margin: 0;
+    font-size: 13px;
+    font-weight: 400;
+}
+.play_box .video_comment_item .text h6{
+    margin: 5px 0;
+    font-size: 13px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+.play_box .video_comment_item .text div{
+    display: inline-flex;
+    align-items: center;
+
+}
+.play_box .video_comment_item .text div p:last-child{
+    font-weight: 600;
+    margin-left: 15px;
+
+}
+.play_box .video_comment_item .text div p:nth-child(2){
+
+    margin-right: 10px;
+    font-size: small;
+}
+.play_box .right_box{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.play_box .right_box .toptags{
+    overflow-x: scroll;
+    width: 32vw;
+    display: inline-flex;
+    height: 50px;
+    align-items: center;
+}
+.play_box .right_box .toptags p{
+    margin: auto 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgb(233, 233, 233);
+}
+.play_box .right_box .toptags p:first-child{
+    margin: auto 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.play_box .right_box .bottom_videos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+
+}
+.play_box .bottom_videos .video_item{
+    display: inline-flex;
+    margin: 0;
+    width: 32vw;
+    margin-bottom: 10px;
+}
+.play_box .bottom_videos .video_item img{
+    width: 160px;
+    height: 100px;
+    border-radius: 10px;
+    margin: 0;
+}
+.play_box .bottom_videos .video_item div{
+    margin: 5px 5px 5px 5px;
+    /* margin-left: 10px; */
+    display: flex;
+    flex-direction: column;
+}
+.play_box .bottom_videos .video_item div h4{
+    margin: 0;
+    font-size: 14px;
+}
+.play_box .bottom_videos .video_item div h6{
+    margin: 0;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 3px 0 ;
+
+}

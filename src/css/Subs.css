@@ -1,0 +1,70 @@
+.subs_box{
+    display: flex;
+    padding: 0 0px;
+    width: 82vw;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    height: 85vh;
+}
+.subs_box .video_item{
+    margin: 0px 2px 20px 2px;
+    width: 200px;
+    display: block;
+
+}
+.subs_box .video_box{
+    position: relative;
+    height: 120px;
+}
+.subs_box .video_thumbnail{
+    width: 200px;
+    height: 120px;
+    border-radius: 12px;
+    position: absolute;
+}
+.subs_box .video_duration{
+    position: absolute;
+    bottom: 2px;
+    right: 5px;
+    margin: 0;
+    color: white;
+    background-color: black;
+    border-radius: 2px;
+    padding: 0 5px;
+    font-size: 13px;
+}
+.subs_box .video_detail{
+    position: relative;
+    margin-top: 5px;
+    display: inline-flex;
+}
+.subs_box .text_box{
+    margin: 0;
+    display: flexbox;
+    margin-left: 0px;
+}
+.subs_box .video_name{
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+.subs_box .video_channelname{
+    margin: 0;
+    margin-top: 6px;
+    font-size: 13px;
+}
+.subs_box .video_time_views{
+    margin: 0;
+    margin-top: 6px;
+    display: inline-flex;
+
+}
+.subs_box .video_views{
+    margin: 0;
+    font-size: 13px;
+    margin-right: 10px;
+}
+.subs_box .video_time{
+    margin: 0;
+    font-size: 13px;
+}

@@ -1,0 +1,48 @@
+.sidebar{
+    flex-basis: 18%;
+    height: calc(100vh - 50px);
+    overflow-y: scroll;
+}
+.uper_tabs{
+    margin: 0px 10px;
+    display: flex;
+    flex-direction: column;
+}
+.tab_elem{
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    margin: 0    10px;
+}
+.tab_elem:hover{
+    background-color: rgb(238, 238, 238);
+    border-radius: 10px;
+}
+.tab_elem:hover .tab_text{
+    font-weight: 700;    
+}
+.tab_elem .tab_icon{
+    margin: 0 ;
+    margin-left: 5px;
+}
+.tab_elem .tab_text{
+    margin: 12px 0;
+    margin-left: 15px;
+    font-size: 15px;
+    color: black;
+}
+.sidebar_line{
+    border-bottom: 1px solid rgb(212, 212, 212);
+    margin: 25px;
+}
+.subscription_text{
+    margin: 0;
+    margin-left: 25px;
+    font-weight: 600;
+
+}
+.subscription_icon{
+    height: 15px;
+    margin-right: 10px;
+    margin-left: auto;
+}

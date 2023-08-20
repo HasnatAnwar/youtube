@@ -1,0 +1,24 @@
+.subs_head{
+    display: inline-flex;
+    height: 50px;
+    width: 82vw;
+    align-items: center;
+}
+.subs_head p:first-child{
+    /* margin-left: 20px;        */
+    margin-right: auto;
+    font-weight: 500;
+}
+.subs_head p:nth-child(2){
+    margin-left: auto;
+    margin-right: 10px;
+    font-weight: 600;
+    color: blue;
+}
+
+.subs_head img:nth-child(3){
+    margin-right: 10px;
+}
+.subs_head img:last-child{
+    margin-right: 25px;
+}

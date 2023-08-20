@@ -1,0 +1,67 @@
+img{
+    height: 30px;
+}
+
+
+.topbar{
+    height: 50px;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+}
+.basic_icon_box{
+    display: inline-flex;
+    /* flex-basis: 20%; */
+    margin-left: 25px;
+    margin-right: auto;
+
+}
+.menu_icon{
+
+}
+.youtube_icon{
+
+}
+.search_bar_box{
+    display: inline-flex;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+.search_bar{
+    display: inline-flex;
+    background: rgb(224, 224, 224);
+    border-radius: 20px;
+    height: 40px;
+    border: 1px solid gray ;
+}
+.search_tab{
+    border: none;
+    border-right: 1px solid gray;
+    border-radius: 20px 0  0 20px;
+    width: 50vw;
+    padding-left: 20px;
+    font-size: 15px;
+}
+.search_icon{
+    margin: auto 10px;
+
+}
+.mice_icon{
+    margin: auto 10px;
+}
+.profile_icon_box{
+    display: inline-flex;
+    /* margin-left: auto; */
+    margin-right: 25px;
+}
+.plus_video_icon{
+    margin:auto 5px;
+}
+.noti_icon{
+    margin: auto 5px;
+}
+.profile_icon{
+    margin: auto 5px;
+    margin-right: 0px;
+}
