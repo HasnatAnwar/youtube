@@ -14,7 +14,7 @@ const MainBox = () => {
             return (
               <div className="video_item">
                 <div className="video_box">
-                  <a href="/play">
+                  <a href="/youtube/play">
                     <img className='video_thumbnail' src={dumpic} alt="" />
                   </a>
                   <p className='video_duration'>17:00</p>
