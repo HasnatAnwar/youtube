@@ -13,15 +13,15 @@ const Sidebar = () => {
   return (
     <div className="sidebar">
       <div className='uper_tabs'>
-        <a className='tab_elem' href="/">
+        <a className='tab_elem' href="/youtube/">
           <img src={home} alt="" className="tab_icon" />
           <p className="tab_text">Home</p>
         </a>
-        <a className='tab_elem' href="/shorts">
+        <a className='tab_elem' href="/youtube/shorts">
           <img src={shorts} alt="" className="tab_icon" />
           <p className="tab_text">Shorts</p>
         </a>
-        <a className='tab_elem' href="/subscription">
+        <a className='tab_elem' href="/youtube/subscription">
           <img src={subs} alt="" className="tab_icon" />
           <p className="tab_text">Subscription</p>
         </a>
