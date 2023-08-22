@@ -14,7 +14,7 @@ function App() {
     <BrowserRouter>
       <Routes >
 
-        <Route path='/' element={
+        <Route path='/youtube' element={
           <>
             <Topbar />
             <div className="container" >
@@ -27,7 +27,7 @@ function App() {
           </>
         }>
         </Route>
-        <Route path='/shorts' element={
+        <Route path='/youtube/shorts' element={
           <>
             <Topbar />
             <div className="container" >
@@ -40,7 +40,7 @@ function App() {
           </>
         }>
         </Route>
-        <Route path='/subscription' element={
+        <Route path='/youtube/subscription' element={
           <>
             <Topbar />
             <div className="container" >
@@ -54,7 +54,7 @@ function App() {
           </>
         }>
         </Route>
-        <Route path='/play' element={
+        <Route path='/youtube/play' element={
           <>
             <Topbar/>
             <div className="container">
